@@ -6,7 +6,7 @@ describe('Tests on <FirstApp />', () => {
   const subtitle = 21;
   const title = "Hello, I'm Nikola";
 
-  it('should match he snapshot', () => {
+  it('should match the snapshot', () => {
     const { container } = render(
       <FirstApp subTitle={subtitle} title={title} />,
     );
