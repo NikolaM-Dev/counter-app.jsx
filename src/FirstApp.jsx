@@ -16,6 +16,6 @@ FirstApp.propTypes = {
 };
 
 FirstApp.defaultProps = {
-  title: "Hello, I'm Nikola",
   subTitle: 'Dragon Ball Z',
+  title: "Hello, I'm Nikola",
 };
