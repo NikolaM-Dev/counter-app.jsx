@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { HelloWorldApp } from './App';
-  return <h1>Hello World</h1>;
-};
+// import { HelloWorldApp } from './HelloWorldApp';
+import { FirstApp } from './FirstApp';
+
 import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HelloWorldApp />
+    <FirstApp subTitle={123} title="Hello 👋, I'm Goku" />
   </React.StrictMode>,
 );
