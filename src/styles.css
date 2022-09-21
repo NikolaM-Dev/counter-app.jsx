@@ -6,3 +6,10 @@ body {
   font-size: 1.3rem;
   padding: 70px;
 }
+
+button {
+  border-radius: 10px;
+  font-size: inherit;
+  margin-right: 4px;
+  padding: 16px;
+}
